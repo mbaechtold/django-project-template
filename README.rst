@@ -1,9 +1,30 @@
 django-project-template
 =======================
 
-Django 1.4+ project layout template.
+If you don't like to repeat yourself every time you create a new Django project, you definitely want to have a look
+at the `--template` option of the `startproject` command introduced in Django 1.4.
 
-Usage: django-admin.py startproject --template https://github.com/downloads/mbaechtold/django-project-template/latest.zip --extension py,md,gitignore,dist your_project_name
+This git repo holds my personal Django project layout template which allows me to start a new project in just a few seconds.
+
+.. note:: This is still work in progress.
+
+Apps and helpers
+----------------
+
+Configuration is provided for the following apps (in alphabetic order):
+
+* Fabric
+* Pillow (instead of PIL)
+* South
+* cmsplugin-filer
+* django-cms
+* django-classy-tags
+* django-bootstrap-toolkit
+* django-extensions
+* django-filer
+* django-ganalytics
+* django-mptt
+* django-sekizai
 
 Usage
 -----
@@ -21,24 +42,6 @@ Planned features
 * Advanced Django settings (multi-site and multi-environment)
 * Logging settings for Sentry
 * Fabric file for easy deployment
-
-Apps and helpers
-----------------
-
-Configuration is provided for the following fine apps (in alphabetic order):
-
-* Fabric
-* Pillow (instead of PIL)
-* South
-* cmsplugin-filer
-* django-cms
-* django-classy-tags
-* django-bootstrap-toolkit
-* django-extensions
-* django-filer
-* django-ganalytics
-* django-mptt
-* django-sekizai
 
 Author
 ------
