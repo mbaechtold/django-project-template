@@ -6,7 +6,7 @@ at the `--template` option of the `startproject` command introduced in Django 1.
 
 This git repo holds my personal Django project layout template which allows me to start a new project in just a few seconds.
 
-.. note:: This is still work in progress.
+Please consider this a pre-alpha release. Use it at your own peril.
 
 Apps and helpers
 ----------------
