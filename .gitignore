@@ -1,2 +1,25 @@
-/build/
-/database/
+############################ ATTENTION ##############################
+# Please do not add the temp files of your editor of choice
+# to this gitignore file. Consider a global gitignore file instead.
+# TODO: Provide url to reason behind this.
+#####################################################################
+
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Temp files:
+*~
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs:
+*.log

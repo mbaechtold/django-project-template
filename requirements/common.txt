@@ -1,0 +1,17 @@
+# Basics
+Django==1.4.5
+
+# Helpers
+South==0.7.6
+Pillow==1.7.8
+django-extensions==1.0.0
+easy-thumbnails==1.2
+django-reversion==1.6.6
+pytz==2012h
+django-bootstrap-toolkit==2.8.0
+django-ganalytics==0.2
+
+# Apps
+https://github.com/divio/django-cms/archive/2.4.0.beta.zip
+django-filer==0.9.3
+cmsplugin-filer==0.9.4
