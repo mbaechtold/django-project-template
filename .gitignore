@@ -1,8 +1,8 @@
-############################ ATTENTION ##############################
+############################ ATTENTION #################################
 # Please do not add the temp files of your editor of choice
 # to this gitignore file. Consider a global gitignore file instead.
-# TODO: Provide url to reason behind this.
-#####################################################################
+# TODO: Provide url to reason behind this note and some instructions.
+########################################################################
 
 # Python bytecode:
 *.py[co]
