@@ -1,0 +1,12 @@
+#################################################################
+# Production Requirements
+#################################################################
+#
+# This file is intended for the requirements used only on
+# your production environment.
+#
+#################################################################
+
+-r ../requirements.txt
+
+psycopg2==2.5

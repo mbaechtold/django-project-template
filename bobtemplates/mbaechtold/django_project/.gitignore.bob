@@ -25,3 +25,11 @@ build
 
 # Logs:
 *.log
+
+# Project specific ignores:
+/database
+/docs/build
+/envs
+/media
+/static
+/temp

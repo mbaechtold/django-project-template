@@ -1,0 +1,15 @@
+#################################################################
+# Development Requirements
+#################################################################
+#
+# This file is intended for the requirements used only on your
+# development environment.
+# If you try to keep your development environment similar to
+# your production environment, this file should be nearly empty.
+#
+#################################################################
+
+-r ../requirements.txt
+
+Fabric==1.7.0
+Sphinx==1.2b1

@@ -1,2 +1,0 @@
-This is the directory where all the assets will be collect to when you run `django-admin.py collectstatic`.
-Make sure your web server will serve these files as static content.

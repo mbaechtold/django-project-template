@@ -1,0 +1,48 @@
+#################################################################
+# Basic Requirements
+#################################################################
+
+Django==1.5.2
+South==0.8.2
+pytz==2013d
+# TODO: Replace "py-bcrypt" with "bcrypt" for Django 1.6: https://docs.djangoproject.com/en/1.6/topics/auth/passwords/#using-bcrypt-with-django
+py-bcrypt==0.4
+django-extensions==1.2.0
+django-configurations==0.4
+django-appconf==0.6
+Pillow==2.1.0
+django-filer==0.9.5
+easy-thumbnails==1.3
+django-ganalytics==0.2
+envdir==0.4.1
+django-floppyforms==1.1
+# TODO: Replace by "django-bootstrap3" once it's mature enough
+django-bootstrap-toolkit==2.15.0
+{{% if apps.cms.enable %}}
+
+
+#################################################################
+# Django CMS
+#################################################################
+
+# TODO: Replace the following line by "django-cms==3.0" once the new release is out
+https://github.com/divio/django-cms/archive/3.0.0.beta2.zip
+
+# Django CMS dependencies
+django-classy-tags==0.4
+django-mptt==0.5.2
+django-sekizai==0.7
+djangocms-admin-style==0.1.4
+djangocms-text-ckeditor==2.0.2
+
+# Recommended packages for the Django CMS
+cmsplugin-filer==0.9.5
+django-reversion==1.7.1
+{{% endif %}}
+
+
+#################################################################
+# Project Specific Requirements
+#################################################################
+
+# Add your project specific requirements here (and delete this line)
