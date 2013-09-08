@@ -1,2 +1,0 @@
--r ../common.txt
-Fabric==1.4.3

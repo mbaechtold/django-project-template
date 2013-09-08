@@ -1,0 +1,4 @@
+[
+    '.example.com',  # Allow domain and subdomains
+    # '.example.com.',  # Also allow FQDN and subdomains
+]

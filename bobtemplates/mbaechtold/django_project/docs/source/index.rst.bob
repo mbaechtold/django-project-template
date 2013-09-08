@@ -1,0 +1,12 @@
+################################
+{{{ project.full_name }}}
+################################
+
+Welcome to the documentation of "{{{ project.full_name }}}".
+
+**Content**
+
+.. toctree::
+    :maxdepth: 3
+
+    content/example
