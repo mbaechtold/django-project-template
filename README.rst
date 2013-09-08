@@ -6,9 +6,12 @@ This is a project layout template for Django projects based on `mr.bob <https://
 Quickstart
 ----------
 
+This quickstart will change a little bit once this packages has been released on PyPI. Until then,
+please proceed as follows:
+
 * ``mkproject my-cool-website``
 * ``pip install mr.bob==0.1a9``
-* ``mrbob https://github.com/mbaechtold/django-project-template/tarball/master#bobtemplates/mbaechtold/django_project``
+* ``mrbob https://github.com/mbaechtold/django-project-template/archive/master.zip#django-project-template-master/bobtemplates/mbaechtold/django_project``
 
 Author
 ------
