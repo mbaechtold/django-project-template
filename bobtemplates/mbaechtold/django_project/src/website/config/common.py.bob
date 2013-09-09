@@ -136,7 +136,6 @@ class BaseSettings(Configuration):
         'cms.middleware.user.CurrentUserMiddleware',
         'cms.middleware.toolbar.ToolbarMiddleware',
         'cms.middleware.language.LanguageCookieMiddleware',
-        'cinemas.middleware.region.CurrentRegionMiddleware',
 {{% endif %}}
     )
 
@@ -258,10 +257,8 @@ class BaseSettings(Configuration):
 
 {{% if apps.cms.enable %}}
     CMS_TEMPLATES = (
-        ('home.html', 'Home'),
-        ('subsite.html', 'Subsite'),
-        ('movie_detail.html', 'Movie Detail'),
-        ('styleguide.html', 'Styleguide'),
+        ('base.html', 'Base'),
+        # TODO: Add useful templates having cms placeholders.
     )
 
     CMS_LANGUAGES = {
